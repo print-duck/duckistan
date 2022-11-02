@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--link rel="stylesheet" href="/static/homeresult.css"-->
+        <title>
+            HOME PAGE
+        </title>
+    </head>
+    <body style="background-image:url({{url_for('static',filename='passport-less-travel-eu0216.jpg')}});background-size:120%;">
+        <form action="{{url_for('pg')}}" method="post">
+        <h1>
+        <h2>
+        <h3>
+        <h4>
+        <div align="left">
+           <b>
+           EXPLORE THE WORLD !!<br>
+           <!--table id="blur" style="border-radius:10px"-->
+                <tr>
+                    <td>
+                        <div align="left">
+                        <h4>
+                        <input type="radio"name="travel" value="one way">One way
+                        <input type="radio"name="travel" value="round trip">Round Trip
+                        <input type="radio"name="travel" value="multi city">Multi-city   
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>
+                        City:
+                        <input type="text"name="from"placeholder="From">
+                        City:
+                        <input type="text"name="to"placeholder="To">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>
+                        Departure date:
+                        <input type="date"name="date"placeholder="dd-mm-yy">
+                        Return Trip:
+                        <input type="date"name="rdate"placeholder="Add return trip"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>
+                        <h4>
+                        Class:
+                        </b>
+                        <!--label for="classes">Class:
+                        </label>
+                        <select name="classes" id="classes">
+                            <option value="class">Economy</option>
+                            <option value="class">Buisness</option>
+                            <option value="class">First class</option>
+                            <option value="class">Premium Economy</option>
+                        </select-->
+                        <input type="radio" name="class" value="Economy">Economy
+                        <input type="radio" name="class" value="buisness">Buisness
+                        <input type="radio" name="class" value="first class">First class
+                        <input type="radio" name="class" value="premium economy">Premium  Economy
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>
+                        <h4>
+                        Passenger(s) & Extra seat(s):<br>
+                        <br>
+                        </b>
+                        <input type="radio" name="passenger" value="Adult">Adults 12+years:
+                        <input type="number"value="0"><br>
+                        <br>   
+                        <input type="radio" name="passenger" value="senior">Senior citizens 60+ years:
+                        <input type="number"value="0"><br>
+                        <br>
+                        <input type="radio" name="passenger" value="child">Child 2-12 years:
+                        <input type="number"value="0"><br>
+                        <br>
+                        <input type="radio" name="passenger" value="infant">Infants blw 2yrs:
+                        <input type="number"value="0"><br>
+                    </td>
+                </tr>
+                
+    
+                <!--tr>
+                    <td>
+                        <h4>
+                        <div align="left">
+                        Pay in:
+                        <input type="text" name="indian"placeholder="Indian rupees">
+                        <!--Amount:
+                        <input type="text" name="amount"placeholder="amount to be paid"><br>
+                        <br>       
+                        <label for="classes">Payment Method:
+                        </label>
+                        <select name="classes" id="clasess">
+                            <option value="Payment Method">Cash</option>
+                        </select>
+                        </div>
+                        
+                    </td>
+                </tr-->
+        
+                    Total No of Tickets:
+                    <input type="text" name="ticket"placeholder="no of ticket booked">
+            
+                
+                <tr>
+                    <td>
+                        <h4>
+                        <div align="left">
+                        <b>
+                            <input class="btn-success" type='submit' style="font-size: 14px;" value='confrim ticket'>
+                        </b>
+                        <!--input type="submit"value="Edit Response"-->
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </h4>
+    </h3>
+    </h2>
+    </h1>
+       </form>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=CAB">
+   <link rel="stylesheet" href="/static/login.css">
+   
+    <title>create Account</title>
+</head>
+<body style="background-image:url({{url_for('static',filename='ta.png')}});background-repeat:no-repeat;">
+    <form action="{{url_for ('cre')}}" method="post">
+    
+        <br>
+    
+              <h2>  &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; 
+                &nbsp;  CREATE YOUR ACCOUNT!!</h2>
+      <table id="blur" style="margin-left: 100px;">
+        <tr>
+            <td>
+             <h2>NAME:</h2>
+            </td>
+            <td>
+                <input class="detail_box" type="text" name="name"
+                 placeholder="Username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+             <h2>USER NAME:</h2>
+            </td>
+            <td>
+                <input class="detail_box" type="text" name="user" 
+                placeholder="Username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+             <h2>  PASSWORD:</h2>
+            </td>
+            <td>
+                <input  class="detail_box" type="password"  name="passw" 
+                placeholder="Password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+             <h2>CONFIRM PASSWORD:</h2>
+            </td>
+            <td>
+                <input class="detail_box" type="password"  name="passww" 
+                placeholder="Confirm Password">
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+              <h2> MAIL-ID:</h2>
+            </td>
+            <td>
+                <input class="detail_box" type="email" name="mail"
+                 placeholder=" Ex-abc@gmail.com">
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <h2> CONTACT NUMBER:</h2>
+             </td>
+            <td>
+                <input class="detail_box" type="text" name="phn"
+                 placeholder="Mobile Number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+             <h2> LOCATION:</h2>
+            </td>
+            <td>
+                <input class="detail_box" type="text" name="loca"
+                 placeholder=" City">
+            </td>
+        </tr>
+      </table>
+      <div >
+<p style="margin-left:300px ;">
+      
+        <input class="detail_box"  type="submit" value="Submit">
+    </p>
+    </div>
+          </form> 
+    
+</body>
+</html>

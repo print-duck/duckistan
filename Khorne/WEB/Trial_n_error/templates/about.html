@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="static/nav.css">
+    <title>Document</title>
+</head>
+<body style="background-image: url({{url_for('static',filename='about_bg.jpg')}});background-repeat: no-repeat; background-size:100%;">
+  <div>
+    <header align="center"
+    style="background-color: blanchedalmond;
+     font-family: 'Courier New', Courier, monospace;
+      color: brown;
+       margin: 0px; font-size: 60px;"><img src="/static/resources_web/clothinline.svg" alt="COTTON KART"></header>
+    </div>
+  <div id="navbar"><ul>
+    <li ><a href="/s">Home</a></li>
+    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+    <li><a href="/c">Cart</a></li>
+    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+    <li class="active"><a class="active" href="/a">About</a></li>
+    <li>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+    <li style="float: right;"><a href="/">Log out</a></li>
+  </ul></div>
+  <div style="font-family: monospace; font-size: 30px;">
+    <h1 style="color: brown;">COTTON KART</h1>
+    <h2 style="color: brown;">Cotton and Fabric material exporters</h2>
+    <h3 style="color: teal; -webkit-text-stroke: 1px; -webkit-text-stroke-color: black;">We’re a team that knows creativity doesn’t just happen; <br> it takes passion and a lot of hard work. <br>
+       That’s why we’re committed to making it easier for people to get their cotton needs done, <br> driven by a positive purpose 
+      and a shared set of values <br> that puts our community at the heart of everything we do.</h3>
+</div>
+
+
+
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+</script>
+</body>
+</html>

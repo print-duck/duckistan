@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>confirm</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body style="background-image:url({{url_for('static',filename='cabb.jpeg')}});
+    background-repeat:no-repeat; background-size:1500px" >
+      <p style="font-family: cursive ;color: yellow"> 
+            <h2><br><br>
+        {{obj['NAME']}}    Your Booking Is Confirm!
+        <table>
+            <tr><td>Name:      {{obj['NAME']}}</td>
+            <tr><td>Contact Number:    {{obj['contact']}}<br></td><br>
+            <tr><td>Pick Location :  {{obj['pick']}}<br></td><br>
+            <tr><td>Drop Off Location: {{obj['drop']}} <br></td></tr>
+            <tr><td>Passengers Count:  {{obj['count']}}<br></td></tr>
+            <tr><td>Trip Type:         {{obj['trip']}}<br></td><br>
+            <tr><td>Car Type:          {{obj['car']}}<br></td><br>
+            </p>
+    
+    </table>
+    </h2>
+    <p style="font-family: cursive ;color: yellow"> 
+      <h1>  DRIVER DETAILS<br>
+        Driver Name=Suriya<br>
+        contact number=382737367<br></h1>
+     <h1> YOUR CAB NUMBER TN 11 0512<br></h1>  
+    </p>
+
+
+    </body>
+</html>
+<!-- name=obj[1]
+    contact=obj[8]
+     pickup=obj[2]
+     drop=obj[3]
+     passengers count=obj[7]
+     trip type=obj[9]
+     car type=obj[0]
+     driver name--add pannano
+     car number--adefault dd pannano
+-->

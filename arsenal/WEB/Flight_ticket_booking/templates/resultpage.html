@@ -1,0 +1,162 @@
+<!--html>
+    <head>
+        <title>
+            RESULT PAGE
+        </title>
+    </head>
+    <body style="background-image:url({{url_for('static',filename='travel.jpg')}});background-size:130%;">
+        <h1>
+        <h2>
+        <h3>
+        <h4>
+        <div align="left">
+             !! ENJOY YOUR JOURNEY !!<br>
+            <br>
+        !! YOUR  RIDE  WITH  US  HAS  BEEN  CONFRIMED !!
+        <tr>
+            <td>
+                <div align="left">
+                <h4>
+                <input type="radio">One way<br>
+                <br>
+                <input type="radio">Round Trip
+                <input type="radio">Multi-city> 
+            </td>
+        </tr>
+        
+            <table>
+                <tr>
+                    <td>
+                        <h4>
+                        City:
+                        <input type="text"value="Chennai">
+                        City:
+                        <input type="text"value="Newyork">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>
+                        Departure date:
+                        <input type="text"value="15/10/2022">
+                        Return Trip:
+                        <input type="text"value="04/11/2022"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>
+                        Class:<br>
+                        <br>
+                        <label for="classes">class:
+                        </label>
+                        <select name="classes" id="classes"-->
+                            <!--option value="class">Economy</option>
+                            <option value="class">Buisness</option>
+                            <option value="class">First class</option>
+                            <option value="class">Premium Economy</option>
+                        </select>
+                        <input type="radio">Economy
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <tr>
+                            <td>
+                                <h4>
+                                <Amount:
+                                <br>
+                                <br>
+                                <input type="radio">Adult-Rs.12000
+                                <input type="radio">Senior citizen-Rs.7000
+                                <input type="radio">child-Rs.6500
+                                <input type="radio">Infant-Rs.4000>
+                                <br>
+                            </td>
+                        </tr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>
+                        Passenger(s) & Extra seat(s):<br>
+                        <br>
+                        <input type="radio">Adults 12+years:
+                        <input type="number"value="2"><br>
+                        <br>   
+                        <input type="radio">Senior citizens 60+ years:
+                        <input type="number"value="1"><br>
+                        <br>
+                        <input type="radio">Child 2-12 years
+                        <input type="number"value="1"><br>
+                        <br>
+                        <input type="radio">Infants blw 2yrs
+                        <input type="number"value="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>
+                        <div align="center">
+                        <Pay in:
+                        <input type="text"value="Indian rupees">
+                        Amount:
+                        <input type="text"value="41,500"><br>
+                        <br>
+                        <label for="classes">Payment Method:
+                        </label>
+                        <select name="classes" id="clasess">
+                            <option value="Payment Method">Cash</option>
+                        </select>
+                    </td>
+                </tr-->
+                <!--tr>
+                    <td>
+                        <h4>
+                        <div align="center"-->
+                        <!--input type="button"value="Booked"-->
+                        <!--input type="button"value="Edit Response">
+                    </td>
+                </tr>
+            </table>
+        </div>
+      !! HAVE A HAPPY AND SAFE JOURNEY !!
+    </h4>
+    </h3>
+    </h2>
+    </h1>
+    </body>
+</html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image:url({{url_for('static',filename='travel.jpg')}});background-size:100%;">
+    <div align="center">
+        <h3>
+            <div align="left">
+            YOUR RIDE WITH US HAS BEEN CONFRIMED !!
+            <br>
+            <br>
+            <table>
+                <tr><td>total no of ticket:{{obj['ticket']}}</td></tr>
+                <tr><td>travel:{{obj['travel']}}</td></tr>
+                <tr><td>departure:{{obj['from']}}</td></tr>
+                <tr><td>arrival:{{obj['to']}}</td></tr>
+                <tr><td>departure date:{{obj['date']}}</td></tr>
+                <tr><td>return date:{{obj['rdate']}}</td></tr>
+                <tr><td>class:{{obj['class']}}</td></tr>
+                <tr><td>passenger:{{obj['passenger']}}</td></tr>
+            </div>
+            </table>
+            HAVE A HAPPY AND SAFE JOURNEY!!
+        </h3>
+    </div>
+
+</body>
+</html>

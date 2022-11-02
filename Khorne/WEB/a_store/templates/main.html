@@ -1,0 +1,43 @@
+<!--1.INITIATE HTML-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+</head>
+<body>
+    <!--2. DISPLAY LOGO-->
+    <div align="center">
+    
+        <img src="/static/cooltext415201058257171.png" alt="My Kart">
+    </div>
+    <!--5. Create form action method to transfer data to the Flask-->
+    <form action="{{url_for('ticket')}}" method="post">
+    <!--3. Display login details like username password, login and create account-->
+    <div align="center">
+        <table>
+            <tr>
+                <td>
+                    <!--6. assign name attribute to assign the data the specific container-->
+                    <input type="text"  name="uname" placeholder="Username">
+                    <br>
+                    <input type="password" name="pwd" placeholder="Password">
+                </td>
+                <td>
+                    <input type="submit" value="Login">
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+    <br>
+    <!--4. Display create account button-->
+    <div align="center">
+        <a href="/c">
+            <input type="button" value="Create Account">
+        </a>
+    </div>
+</body>
+</html>

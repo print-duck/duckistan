@@ -1,0 +1,94 @@
+<html>
+    <head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">"
+<link rel="stylesheet" href="/static/home.css">
+        <title>
+            ticket booking
+        </title>
+    </head>
+    <body style="background-image: url({{url_for('static',filename="vwoa53.webp")}});background-repeat: no-repeat; background-size:130%;">
+        >
+        <form action="{{url_for('pg')}}" method="POST">
+        <div align="center">
+            <h1>ONLINE BUS TICKET BOOKING</h1>
+            <h2>'JOBS FILL YOUR POCKETS,TRAVELS FILL YOUR SOUL'</h2>
+            <h2>Start booking your tickets</h2>
+            <table id="blur" style="border-radius: 10px" align="center">
+                <tr>
+                    <td>
+                        <h2>SOURCE:</h2>
+                    </td>
+                    <td>
+                    <input type="text" name="From City" placeholder="From City"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>DESTINATION:</h2>
+                    </td>
+                    <td>
+                    <input type="text" name="To City" placeholder="To City"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>DEPARTURE DATE:</h2>
+                    </td>
+                    <td>
+                    <input type="date" name="date" placeholder="Enter date"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>NAME:</h2>
+                    </td>
+                    <td>
+                    <input type="text" name="name" placeholder="Enter name"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>CONTACT:</h2>
+                    </td>
+                    <td>
+                    <input type="number" name="contact"  placeholder="Enter contact"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>NO OF SEATS:</h2>
+                    </td>
+                    <td>
+                    <input type="number" name="num of seats" placeholder="Enter no of seats"><br><br>
+                    </td>
+                </tr>
+                <tr>   
+                    <td>
+                    <h2>BUS TYPE:</h2>
+                    </td>
+                    <td>
+                        <input type="radio" name="bus" value="Super Luxury">SUPER LUXURY BUS<br><br>
+                        <input type="radio" name="bus" value="Single-Deck">SINGLE-DECK BUS<br><br>
+                        <input type="radio" name="bus" value="Double-Deck">DOUBLE-DECKER BUS<br><br>
+                        <!--<input type="radio" name="bus" >DOUBLE-DECKER BUS<br><br>-->
+                        <input type="radio" name="bus" value="MINI">MINI BUS<br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <h2>SEAT TYPE:</h2>
+                    </td>
+                    <td>
+                        <input type="radio" name="seat" value="AC Seater">AC SEATER BUS<br><br>
+                        <input type="radio" name="seat" value="Non AC Seater">NON-AC SEATER BUS<br><br>
+                        <input type="radio" name="seat" value="AC Sleeper">AC SLEEPER BUS<br><br>
+                        <input type="radio" name="seat" value="Non AC Sleeper">NON-AC SLEEPER BUS<br><br>
+                    </td>
+                </tr>
+                
+            </table>
+                    <br><br><input class="btn-success" type="submit" value="CONFIRM THE TICKETS">
+        </div>
+        </form>
+    </body>    
+</html>

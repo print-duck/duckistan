@@ -1,0 +1,52 @@
+<!--Passing Scripts and getting Outputs-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title_a">Script Tags</title>
+    <script>
+        document.getElementById('title_a').innerHTML='Horses'
+        console.log('The Script in my head')
+    </script> <!--Passing Javascript in Script tag in head of the HTML-->
+</head>
+<!--------------------------------------------------------------------------------------------------------->
+
+<body>
+    <div id="div_a">
+    </div>
+
+<br> <br>
+
+    <div id="div_b">
+        <button onclick='print_as_pdf()'> ON/OFF </button>  <!--Calling a function that is defined below in a script tag-->
+    </div>
+
+<br> <br>
+
+    <div id="div_b">
+        <input type="text" style="background-color: green;color: black;" placeholder="GREEN">
+    </div>
+
+<br> <br>
+<!--------------------------------------------------------------------------------------------------------->
+
+<script>
+    document.getElementById('div_a').innerHTML='Good Evening'; //innerHTML: Script to display data inside a tag
+    document.write('Ohayou Gozaimasu Jscript San') //write method: directly displays an output in html,
+        //calling write after HTML is loaded clears all HTML and calls write, dangerous used only for testing
+    alert('This is a message box using Javascript') //Display pop notification, can be used with window.alert
+    console.log('The Script in my body'); //Displays data in console, Debugging 
+    function print_as_pdf() //Calling this function prints the entire page
+        { window.print() }
+</script> <!--Passing script tag inside Body of the HTML-->
+
+
+<script src="mojo.js">
+</script> <!--Passing script with external js file-->
+<!--------------------------------------------------------------------------------------------------------->
+
+</body>
+</html>

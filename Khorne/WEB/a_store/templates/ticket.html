@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            }
+        li {
+            float: left;
+            padding-right: 180px;
+            }
+        input {
+            margin: 2px;
+            padding: 1px;
+            }
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-image: url({{url_for('static',filename='home_cotton.webp')}});
+            }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>New Releases</h1>
+    </div>
+    <div>
+        <h1>Currently Running</h1>
+        <table align="center">
+            <tr>
+                <td>
+                <ul>
+                    <li align="center">
+                        <a href="">
+                            <img src="/static/movie_1.jpg" alt="Movie_1" width="120px" height="170px">
+                        </a> 
+                        <br>
+                        <input type="submit" name="movie1" value="Book">
+                    </li>
+                    <li align="center">
+                        <a href="">
+                            <img src="/static/movie_5.jpg" alt="Movie_5" width="120px" height="170px">
+                        </a> 
+                        <br>
+                        <input type="submit" name="movie1" value="Book">
+                    </li>
+                    <li align="center">
+                        <a href="">
+                            <img src="/static/movie_3.jpg" alt="Movie_3" width="120px" height="170px">
+                        </a> 
+                        <br>
+                        <input type="submit" name="movie1" value="Book">
+                    </li>
+                    <li align="center">
+                        <a href="">
+                            <img src="/static/movie_4.jpg" alt="Movie_4" width="120px" height="170px">
+                        </a> 
+                        <br>
+                        <input type="submit" name="movie1" value="Book">
+                    </li>
+                </ul>
+            </td>
+            </tr>
+        </table> <br>
+    </div>
+    <div>
+        <h1>Upcoming releases</h1>
+        <table align="center">
+            <tr>
+                <td>
+                <ul>
+                    <li align="center">
+                        <a href="">
+                            <img src="/static/movie_1.jpg" alt="Movie_1" width="120px" height="170px">
+                        </a> 
+                        <br>
+                        <input type="submit" name="movie1" value="Watch Trailer">
+                    </li>
+                    <li align="center">
+                        <a href="">
+                            <img src="/static/movie_5.jpg" alt="Movie_5" width="120px" height="170px">
+                        </a> 
+                        <br>
+                        <input type="submit" name="movie1" value="Watch Trailer">
+                    </li>
+                    <li align="center">
+                        <a href="">
+                            <img src="/static/movie_3.jpg" alt="Movie_3" width="120px" height="170px">
+                        </a> 
+                        <br>
+                        <input type="submit" name="movie1" value="Watch Trailer">
+                    </li>
+                    <li align="center">
+                        <a href="">
+                            <img src="/static/movie_4.jpg" alt="Movie_4" width="120px" height="170px">
+                        </a> 
+                        <br>
+                        <input type="submit" name="movie1" value="Watch Trailer">
+                    </li>
+                </ul>
+            </td>
+            </tr>
+        </table> <br>
+    </div>
+</body>
+</html>

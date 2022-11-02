@@ -1,0 +1,62 @@
+<!--Altering attributes and styles of elements with JavaScript-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play with JavaScript</title>
+    <style> div{ margin: 40px; } </style>
+</head>
+<body>
+    <div id="div3">
+
+
+    <div id="div1"> <!--CHANGING CONTENT-->
+        Playing with JavaScript
+    </div>
+    <button onclick="document.getElementById('div1').innerHTML='Hello World'">H</button>
+    <button onclick="document.getElementById('div1').innerHTML='Playing with JavaScript'">P</button>
+
+
+
+    <div> <!--CHANGING ATTRIBUTE :BUTTON WITH LINK-->
+        <a id="a1" href=https://www.google.co.in> <button>Search Engine</button> </a>
+    </div>
+    <button onclick="document.getElementById('a1').href='https://www.bing.com'">Bing</button>
+    <button onclick="document.getElementById('a1').href='https://www.google.co.in'">Google</button>
+
+
+
+
+    <div id="div2" style="font-family: magneto;color: coral;"> <!--CONTENT WITH PROPERTIES-->
+        GOBLIN
+    </div>
+    <button onclick="document.getElementById('div2').style='font-family: Ravie;color: green;font-size:200px'">Green</button>
+    <button onclick="document.getElementById('div2').style='font-family: magneto;color: coral;'">Orange</button>
+    <button onclick="document.getElementById('div2').style.color='yellow'">yellow</button>
+    <button onclick="document.getElementById('div2').style.fontFamily='monospace'">text</button>
+    <button onclick="document.getElementById('div2').style.fontSize='20px'">size</button>
+
+
+
+    <div> <!--IMAGE WITH HEIGHT AND WIDTH-->
+        <img id="img1" src="D:\Dinesh\WEB\JS\800.png" alt="smiles" height="10%" width="10%">
+    </div>
+    <button onclick="document.getElementById('img1').src='801.png'">up</button>
+    <button onclick="document.getElementById('img1').src='800.png'">down</button>
+
+
+
+
+    </div>
+    <button onclick="document.getElementById('div3').style.display='none'"> Hide</button>
+    <button onclick="document.getElementById('div3').style.display='block'"> show</button>
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/login.css">
+        <title>
+            account creation page
+        </title>
+    </head>
+    <body style="background-image:url({{url_for('static',filename='wp7116963.jpg')}});background-size:100%;">
+        <form action="{{url_for('cre')}}" method="post">
+        <h3>
+        <h4>
+        <div align='center'> 
+        CREATE ACCOUNT
+        <center>
+        <br> 
+    <table id="blur" style="border-radius:10px">
+        <tr>
+            <td>
+                <b>
+                NAME:
+                </b>
+            </td>
+            <td>
+                <input type="text"name="name"placeholder="name"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>
+                USERNAME:
+                </b>
+            </td>
+            <td>
+                <input type="text"name="uname"placeholder="username"><br>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <b>
+                PASSWORD:
+                </b>
+            </td>
+            <td>
+                <input type="password"name="password"placeholder="password"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>
+                CONFRIM PASSWORD:
+                </b>
+            </td>
+            <td>
+                <input type="password"name="cpassword"placeholder="confrim password"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>
+                MAIL_ID:
+                </b>
+            </td>
+            <td>
+                <input type="email"name="mail"placeholder="abc@gmail.com"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>
+                CONTACT_NO:
+                </b>
+            </td>
+            <td>
+                <input type="text"name="contact"placeholder="contact_no"><br>
+            </td>  
+        </tr>
+            <td>
+                <b>
+                LOCATION:
+                </b>
+            </td>
+            <td>
+                <input type="text"name="loc"placeholder="city"><br>
+            </td>
+        </tr>
+        </div>
+    </table>
+            <tr>
+            <td>
+                <br>
+                <input class="btn-success" type='submit' style="font-size: 14px;" value='CREATE ACCOUNT'>
+            </td>
+            </tr>
+        </h4>
+        </h3>
+        </form>
+    </body>
+    </html>

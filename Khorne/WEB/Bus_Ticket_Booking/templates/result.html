@@ -1,0 +1,109 @@
+<!--html>
+    <head>
+        <title>
+            ticket booking
+        </title>
+    </head>
+    <body style="background-image: url({{url_for('static',filename="result.webp")}});background-repeat: no-repeat; background-size:130%;"></body>>
+       <div align="center">
+            <h1>START TRAVELLING TO YOUR DESTINATION...!!</h1>
+
+            <table>
+                <tr>
+                    <td>
+                        <h2>SOURCE:</h2>
+                    </td>
+                    <td>
+                        <input type="text" value="chennai"><br><br>
+                        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>DESTINATION:</h2>
+                    </td>
+                    <td>
+                    <input type="text" value="madurai"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>DEPARTURE DATE:</h2>
+                    </td>
+                    <td>
+                    <input type="text" value="15/07/2022"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>NAME:</h2>
+                    </td>
+                    <td>
+                    <input type="text" value="Swetha"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>CONTACT:</h2>
+                    </td>
+                    <td>
+                    <input type="number" value="12345"><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>NO OF SEATS:</h2>
+                    </td>
+                    <td>
+                        <input type="number" value="2"><br><br>
+                    </td>
+                </tr>
+                <tr>   
+                    <td>
+                    <h2>BUS TYPE:</h2>
+                    </td>
+                    <td>
+                        <input type="text" value="MINI BUS">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>SEAT TYPE:</h2>
+                    </td>
+                    <td>
+                        <input type="text" value="NON-AC SEATER BUS">
+                    </td>
+                </tr>
+                
+            </table>
+                   
+        </div>
+    </body>    
+</html-->
+
+
+<html>
+    <head>
+        <title>
+            Result
+        </title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">"
+<link rel="stylesheet" href="/static/result.css">
+    </head>
+    <body style="background-image: url({{url_for('static',filename="result.webp")}});background-repeat: no-repeat; background-size:130%;">
+        <div align="center">
+            YOUR TICKET HAS BEEN CONFIRMED..!!
+            <br>
+            <br>
+            <table id="blur" style="border-radius: 10px" align="center">
+                <tr><td>SOURCE:{{obj['From City']}}</td></tr>
+                <tr><td>DESTINATION:{{obj['To City']}}</td></tr>
+                <tr><td>DEPARTURE DATE:{{obj['date']}}</td></tr>
+                <tr><td>NAME:{{obj['name']}}</td></tr>
+                <tr><td>CONTACT:{{obj['contact']}}</td></tr>
+                <tr><td>NO OF SEATS:{{obj['num of seats']}}</td></tr>
+                <tr><td>BUS TYPE:{{obj['bus']}}</td></tr>
+                <tr><td>SEAT TYPE:{{obj['seat']}}</td></tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+#blur
+{
+    background-color: rgba(240, 250, 255, 0.55);
+    border-radius: 5dip;
+    line-height: 100%; 
+    backdrop-filter: blur(20dip); 
+    size: max-content;
+    padding: 20dip 40dip;
+    margin: 10px;
+}
+
+
+.text_box {
+margin:20px;
+font-size:20px;
+font-family: 'Courier New', Courier, monospace;
+border:none;
+}

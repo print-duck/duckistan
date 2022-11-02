@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            online train booking
+        </title>
+    </head>
+    <body style="background-image:url({{url_for('static',filename='blur.jpg')}});background-repeat:no-repeat;background-size:100%;">
+        <div align="center">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>BOOKED!!<br><br>GET READY!YOU'RE ALL SET FOR YOUR TRIP</h1>
+            <table>
+                <tr><td><h1>FROM:{{obj['from']}}</h1></td></tr><br>
+                <tr><td><h1>TO:{{obj['to']}}</h1></td></tr><br>
+                <tr><td><h1>JOURNEY DATE:{{obj['date']}}</h1></td></tr><br>
+                <tr><td><h1>NO.OF.SEATS:{{obj['number']}}</h1></td></tr><br>
+                <tr><td><h1>SAET TYPE:{{obj['classes']}}</h1></td></tr><br>
+            </table>
+        </div>
+    </body>    
+</html>
+

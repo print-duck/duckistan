@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>www.cablogin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+         crossorigin="anonymous">
+        <link rel="stylesheet" href="/static/login.css">
+    </head>
+    
+       <body style="background-image:url({{url_for('static',filename='log.jpg')}});
+       background-repeat:no-repeat; "background-size:100>
+
+       <form action="{{url_for ('home')}}" method="post">
+        <div align="center" >
+            <br>
+            <br>
+            <br>
+        <img src="/static/cab.png" alt="Vp Cabs"
+         width="200px" height=" 30px"-->
+            <br>
+            <br>
+            <br>
+            <h1>
+            <center>
+                
+                <p style="font-family: cursive "> LOG-IN!!</p>
+            </center>
+            </h1>
+            <table id="blur" style="border-radius : 10px">
+              <tr>         
+                <td> 
+                <input  class='text_box' type="text" name="username" placeholder=" username">
+              <br>  </h2>
+             <input  class='text_box'   type="password"  name="password"
+                    placeholder=" password">
+            </h2></td></tr>
+            </table>
+                
+             <br>
+             
+                <input style="color:black; font-family: cursive; font-size: 20px;" class="btn-outline-info btn-lg"
+                 type="submit" value="login">   
+            <a href="/a">
+                <input style="color:black; font-family: cursive; font-size: 20px;" class="btn-outline-info btn-lg"
+                type="button" value="Create Account">   
+            </a>   
+        </div>
+
+    </form>
+    </body>
+</html>
+

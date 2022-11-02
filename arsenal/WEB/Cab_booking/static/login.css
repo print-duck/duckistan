@@ -1,0 +1,25 @@
+body{
+    font-family: cursive;
+    font-size: 15px;
+}
+
+#blur
+{ 
+    background-color: rgba(240, 250, 255, 0.55);
+    border-radius: 5dip;
+    line-height: 100%; 
+    backdrop-filter: blur(20dip);
+    size: max-content;
+    padding: 20dip 40dip;
+    box-shadow: 2dip 10dip 24dip 0dip rgba(0,10,20,0.75);
+    margin: 10px;
+    }
+.text_box{
+margin:20px;
+font-size: 20px;
+font-family: cursive;
+border: none;
+}
+.detail_box{
+    font-size: 20px;
+}

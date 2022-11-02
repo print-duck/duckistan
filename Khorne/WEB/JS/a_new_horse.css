@@ -1,0 +1,13 @@
+
+button {
+        margin: 20px;
+        padding: 40px;
+    }
+
+.bluebtns {
+    background-color: blue;
+}
+
+.redbtns {
+    background-color: red;
+}

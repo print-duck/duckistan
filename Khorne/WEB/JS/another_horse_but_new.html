@@ -1,0 +1,32 @@
+<!--SIMPLE ADD CALCULATOR-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>THE ADD</h1>
+        <input id="inp_a" type="text"> <!--Couple of Entry boxes to get data from the user-->
+        <input id="inp_b" type="text">
+        Answer
+        <p id="p_a"></p> <!--a paragraph tag to display Output data-->
+    </div>
+
+    <div>
+        <button onclick="add()">Add</button>
+    </div>
+
+    <script>
+        function add(){ 
+            let a=document.getElementById('inp_a').value; //Creates a variable and gets data from input tags
+            let b=document.getElementById('inp_b').value; //The data is inside the value attribute of the input tag
+            let c=Number(a)+Number(b); //assign a variable with the expression to be done
+            document.getElementById('p_a').innerHTML=c; //Now DOM and assign the variable data to the paragraph tag
+        }
+    </script>
+</body>
+</html>

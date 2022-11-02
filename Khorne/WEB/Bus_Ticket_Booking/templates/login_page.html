@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<title>
+login page
+</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">"
+<link rel="stylesheet" href="/static/login.css">
+</head>
+
+<body style="background-image: url({{url_for('static',filename="login bg.jpeg")}});background-repeat: no-repeat; background-size:130%;">
+
+<form action="{{url_for ('home')}}" method="post">
+    <div align="center">    
+        <img src="/static/cooltext415222829956298.png" alt="Sk Travels" width="400px" height="100px">
+    
+    <table id="blur" style="border-radius: 10px" align="center">
+        
+        <tr>         
+            <td> 
+              <input  class='text_box' type="text" name="username" placeholder=" username">
+            <br>  </h2>
+           <input  class='text_box'   type="password"  name="password"
+                  placeholder=" password">
+          </h2></td>
+        </tr>
+    </table>
+    </div>
+    <div align="center">
+        <input style="color:black; font-family: cursive; font-size: medium;" class="btn-outline-info btn-lg"
+                 type="submit" value="login">   
+            <a href="/a">
+                <input style="color:black; font-family: cursive; font-size: medium;" class="btn-outline-info btn-lg"
+                type="button" value="Create Account">
+            </a>
+    </div>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+        

@@ -1,0 +1,7 @@
+XLODBC
+1
+DSN=Excel Files;DBQ=D:\Dinesh\data.xlsx;DefaultDir=D:\Dinesh;DriverId=1046;MaxBufferSize=2048;PageTimeout=5;
+SELECT `Sheet1$`.tconst, `Sheet1$`.primaryTitle, `Sheet1$`.runtimeMinutes, `Sheet2$`.numVotes  FROM `D:\Dinesh\data.xlsx`.`Sheet1$` `Sheet1$`, `D:\Dinesh\data.xlsx`.`Sheet2$` `Sheet2$`  WHERE `Sheet1$`.tconst = `Sheet2$`.tconst
+
+
+tconst	primaryTitle	runtimeMinutes	numVotes
