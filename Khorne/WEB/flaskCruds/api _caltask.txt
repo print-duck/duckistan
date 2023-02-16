@@ -1,0 +1,8 @@
+Steps to Run
+1. set FLASK_APP = app.py
+2. flask db init (first time alone)
+3. flask db migrate -m "added ip and time"
+4. flask db upgrade
+
+Environment creation
+py -m venv task

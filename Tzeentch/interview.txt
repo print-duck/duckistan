@@ -1,0 +1,54 @@
+self intro
+roles?
+why changeover?
+why should i chose ?
+your company?
+what do you want to do/become/aspiring to be/in future?
+libraries/packages you know..
+expected salary
+current salary
+negotiable salary
+notice period
+team? 
+daily task?
+methodology?
+tools used?
+how tasks are assigned?
+working from?
+what are your strengths?
+what are your weaknesses?
+why it is your weakness?
+other offer?
+what are the databases you have used?
+do you have any questions?
+how strong in javascript?
+how strong in Django?
+how strong in Python?
+how strong in Flask?
+how strong in Angular?
+how strong in SQL/Databases/Mysql?
+how strong in Postgresql?
+
+
+project usage
+project functionality
+project modules
+no of project
+no of clients
+client sector
+major requirements of project?
+project deployment
+
+
+
+
+
+why should an recruiter hire me?
+
+As an AI language model, I don't have the ability to evaluate your qualifications and skills, but in general, recruiters look for candidates who are a good fit for the position and the company culture. You can increase your chances of getting hired by highlighting your relevant experience, skills, education, and achievements, demonstrating your passion and enthusiasm for the job, and showing that you have researched the company and understand what they are looking for. Additionally, having strong interpersonal and communication skills, being a team player, and having a positive attitude can also be attractive qualities to recruiters.
+
+i have 2.5 years experience, skilled in python, mysql, flask and django. My education is Computer Science Engineer, and i worked in 2 major projects, my passion is to become the best and i want to be strong in all aspects of my domain, and i know i am the best candidate. Additionally, i am having strong interpersonal and communication skills, being a team player. what do you think about me now? will a recruiter hire me ?
+
+Based on the information you have provided, it sounds like you have a strong background in computer science and experience with relevant technologies, which are valuable assets in many roles in the field. Your passion for becoming the best in your domain and your focus on self-improvement demonstrate a strong work ethic and drive to succeed. Additionally, your strong interpersonal and communication skills, as well as your willingness to work as a team player, suggest that you would be a positive addition to any company.
+
+With this in mind, it is possible that a recruiter might be interested in hiring you. However, it ultimately depends on the specific requirements of the role, the preferences of the hiring manager, and the competitiveness of the job market. It's also important to keep in mind that there may be other qualified candidates, so having a well-crafted resume and cover letter, preparing for interviews, and networking can increase your chances of getting hired.
